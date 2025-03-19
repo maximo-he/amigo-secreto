@@ -1,1 +1,2 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+//Declaración de variable de tipo array para los nombres de los amigos.
+let amigos = ["Juan", "María", "Pedro", "Diego", "Sofía"];
