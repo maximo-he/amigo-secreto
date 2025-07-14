@@ -3,4 +3,3 @@ let amigos = ["Juan", "María", "Pedro", "Diego", "Sofía", "Sonia"];
 
 // Obtén el elemento del campo de texto
 let campoTexto = document.getElementById("nombreAmigo");
-let campoTexto = document.getElementById
