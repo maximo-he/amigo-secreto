@@ -57,3 +57,19 @@ function sortearAmigo() {
     //mostrar botón de reinicio
     document.getElementById("reiniciar").style.display = "block";
 }
+
+function reiniciarSorteo() {
+    //reiniciar variables y lista de amigos
+    amigos = [];
+    indiceAleatorio = 0;
+    amigoSorteado = 0;
+
+    //limpiar lista y el resultado
+    document.getElementById("listaAmigos").innerHTML = "";
+    document.getElementById("sortear").style.display = "block";
+    document.getElementById("amigoMostrado").innerHTML = "";
+
+    //ocultar botón de inicio
+    document.getElementById("reiniciar").style.display = "none";
+
+}
