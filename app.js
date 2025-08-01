@@ -36,4 +36,24 @@ function mostrarListaAmigos() {
         lista.appendChild(li);
     }
 }
+
+function sortearAmigo() {
+    //validar que la lista no esté vacía
+    if (amigos.length === 0) {
+        alert('No hay amigos en la lista para sortear.');
+        return;
+    }
+
+    //genera nombre aleatorio
+    indiceAleatorio = Math.floor(Math.random() * amigos.length);
+
+    //obtener nombre sorteado
+    amigoSorteado = amigos[indiceAleatorio];
+
+    //mostrar resultado
+    document.getElementById("sortear").style.display = "none";
+    document.getElementById("amigoMostrado").innerHTML = 'El amigo seleccionado es: ${amigoSorteado}';
+
+    //mostrar botón de reinicio
+    document.getElementById("reiniciar").style.display = "block";
 }
